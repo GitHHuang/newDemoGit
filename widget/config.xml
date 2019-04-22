@@ -1,0 +1,25 @@
+<!-- 每一个Widget包必须有一个名为config.xml的配置文件 --> 
+<!-- 该配置包含了关于该Widget的重要信息 --> 
+<!-- 必须采用UTF-8编码 -->
+<!-- 云端项目id与版本号 -->
+<widget id="A6091069108995"  version="0.0.1">
+    <name>API Example</name>
+    <description>
+        API Example App.
+    </description>
+    <author email="developer@apicloud.com" href="//www.apicloud.com">
+        APICloud.SIR
+    </author>
+    <!-- Widget运行的起始页，支持相对/绝对路径 -->
+    <content src="index.html" />
+    <!-- 在哪些页面里面可以访问APICloud的扩展API *代表所有页面都允许访问 -->
+    <access origin="*" />
+    <!-- 偏好设置，Widget运行时属性 -->
+    <preference name="windowBackground" value="#FFF" />
+    <!-- 权限配置 -->
+    <permission name="call" />
+    <!-- 功能配置 -->
+    <feature name="weiXin">
+        <param name="urlScheme" value="wx7779c7c063a9d4d9" />
+    </feature>
+</widget>
